@@ -1,0 +1,20 @@
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int man = 1;
+	int wives = 7;
+	int sacks = 7;
+	int cats = 7;
+	int kits = 7;
+	cout << "The Narrator met " << man << " man. " << endl;
+	cout << "The Narrator met " << wives << " wives. " << endl;
+	cout << "The Narrator met " << wives * sacks << " sacks. " << endl;
+	cout << "The Narrator met " << wives * sacks * cats << " cats. " << endl;
+	cout << "The Narrator met " << wives * sacks * cats * kits << " kits. " << endl;
+
+
+	return 0;
+}
