@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+
+	string name = "Esraa Aamir";
+	int age = 19;
+	string hometown = "Karachi";
+	cout << "Name: " << name << endl << "Age: " << age << endl << "Hometown: " << hometown << endl;
+	 
+	return 0;
+
+}
